@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "numenology:block/turquoise_bush"
+    },
+    "age=1": {
+      "model": "numenology:block/turquoise_bush_berries"
+    }
+  }
+}

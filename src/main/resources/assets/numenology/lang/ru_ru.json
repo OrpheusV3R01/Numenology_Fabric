@@ -1,0 +1,233 @@
+{
+// ВКЛАДКА ТВОРЧЕСКОГО РЕЖИМА,
+  "itemgroup.numenology": "Нуменология",
+
+// HUD / GUI
+  "hud.numenology.chunk.title": "Анализ территории",
+  "hud.numenology.chunk.energy": "Энергия",
+  "hud.numenology.chunk.miasma": "Уровень Миазм",
+  "hud.numenology.chunk.stability": "Стабильность",
+
+  "numenology.numen_field": "Нумен поле",
+  "numenology.energy": "Энергия: %s",
+  "numenology.miasma": "Миазма: %s",
+  "numenology.stability": "Стабильность: %s",
+
+  "gui.numenology.drying_table.title": "Сушильный стол",
+  "gui.numenology.smeltery.line1": "Нуменовая",
+  "gui.numenology.smeltery.line2": "плавильня",
+  "gui.numenology.research_table.button.research": "Изучить",
+  "container.inventory": "Инвентарь",
+
+// УПРАВЛЕНИЕ
+  "key.numenology.open_duffel_bag": "Открыть вещмешок",
+  "category.numenology.keys": "Нуменология",
+
+// EMI (РЕЦЕПТЫ)
+  "emi.category.numenology.drying": "Сушильный стол",
+
+// ТИПЫ УЗЛОВ
+  "nodetype.numenology.normal": "ЕСТЕСТВЕННЫЙ УЗЕЛ",
+  "nodetype.numenology.pure": "ЧИСТЫЙ УЗЕЛ",
+  "nodetype.numenology.fading": "УВЯДАЮЩИЙ УЗЕЛ",
+  "nodetype.numenology.hungry": "ГОЛОДНЫЙ УЗЕЛ",
+  "nodetype.numenology.collapsing": "КОЛЛАПСИРУЮЩИЙ УЗЕЛ",
+  "nodetype.numenology.infected": "ЗАРАЖЁННЫЙ УЗЕЛ",
+  "nodetype.numenology.stabilized": "СТАБИЛИЗИРОВАННЫЙ УЗЕЛ",
+
+// СООБЩЕНИЯ В ЧАТ
+  "chat.numenology.numenometer.nodeempty": "Аспекты иссякли, \nиспользуется чистый \nNumen",
+  "chat.numenology.numenometer.nodepure": "Чистый узел",
+  "chat.numenology.numenometer.aspects": "Аспекты:",
+
+// БЛОКИ: РУДЫ
+  "block.numenology.numen_ore": "Нуменовая руда",
+  "block.numenology.deepslate_numen_ore": "Глубинная нуменовая руда",
+
+// БЛОКИ: СПЕЦИАЛЬНЫЕ
+  "block.numenology.numen_node": "Нумен узел",
+  "block.numenology.numen_cluster": "Смоляной кластер",
+  "block.numenology.numen_crucible": "Алхимический тигель",
+  "block.numenology.drying_table": "Сушильный стол",
+  "block.numenology.research_table": "Стол исследований",
+  "block.numenology.numen_smeltery": "Нуменовая плавильня",
+  "block.numenology.numen_steel_block": "Блок нуменовой стали",
+  "block.numenology.numen_glass": "Нуменовое стекло",
+
+// БЛОКИ: НУМЕНОВОЕ ДЕРЕВО
+  "block.numenology.numen_log": "Нуменовое бревно",
+  "block.numenology.numen_resin_log": "Смоляное нуменовое бревно",
+  "block.numenology.stripped_numen_log": "Обтёсанное нуменовое бревно",
+  "block.numenology.numen_planks": "Нуменовые доски",
+  "block.numenology.numen_sapling": "Саженец нуменового древа",
+  "block.numenology.numen_leaves": "Листва Нумен",
+  "block.numenology.numen_slab": "Нуменовая плита",
+  "block.numenology.numen_stairs": "Нуменовые ступени",
+  "block.numenology.numen_fence": "Нуменовый забор",
+  "block.numenology.numen_fence_gate": "Нуменовые ворота",
+  "block.numenology.numen_door": "Нуменовая дверь",
+
+// БЛОКИ: ДЕРЕВО УМБРА
+  "block.numenology.umbra_log": "Бревно Умбра",
+  "block.numenology.umbra_resin_log": "Смоляное бревно Умбра",
+  "block.numenology.stripped_umbra_log": "Обтёсанное бревно Умбра",
+  "block.numenology.umbra_planks": "Доски Умбра",
+  "block.numenology.umbra_sapling": "Саженец Умбра",
+  "block.numenology.umbra_leaves": "Листва Умбра",
+  "block.numenology.umbra_slab": "Плита Умбра",
+  "block.numenology.umbra_stairs": "Ступени Умбра",
+  "block.numenology.umbra_fence": "Забор Умбра",
+  "block.numenology.umbra_fence_gate": "Ворота Умбра",
+  "block.numenology.umbra_door": "Умбра дверь",
+
+// БЛОКИ: ДЕРЕВО ЛЮМЕН
+  "block.numenology.lumen_log": "Бревно Люмен",
+  "block.numenology.lumen_resin_log": "Смоляное бревно Люмен",
+  "block.numenology.stripped_lumen_log": "Обтёсанное бревно Люмен",
+  "block.numenology.lumen_planks": "Доски Люмен",
+  "block.numenology.lumen_sapling": "Саженец Люмен",
+  "block.numenology.lumen_leaves": "Листва Люмен",
+  "block.numenology.lumen_slab": "Плита Люмен",
+  "block.numenology.lumen_stairs": "Ступени Люмен",
+  "block.numenology.lumen_fence": "Забор Люмен",
+  "block.numenology.lumen_fence_gate": "Ворота Люмен",
+  "block.numenology.lumen_door": "Люмен дверь",
+
+// БЛОКИ: ГЕМАТИТ
+  "block.numenology.hematite_block": "Гематит",
+  "block.numenology.hematite_slab": "Гематитовая плита",
+  "block.numenology.hematite_stairs": "Гематитовые ступени",
+  "block.numenology.hematite_bricks": "Гематитовые кирпичи",
+  "block.numenology.hematite_brick_slab": "Плита из гематитовых кирпичей",
+  "block.numenology.hematite_brick_stairs": "Ступени из гематитовых кирпичей",
+
+// БЛОКИ: НУМЕН-КАМЕНЬ И КИРПИЧИ
+  "block.numenology.numen_stone": "Нумен-камень",
+  "block.numenology.numen_stone_slab": "Плита из нумен-камня",
+  "block.numenology.numen_stone_stairs": "Ступени из нумен-камня",
+  "block.numenology.numen_bricks": "Нуменовые кирпичи",
+  "block.numenology.numen_brick_slab": "Плита из нуменовых кирпичей",
+  "block.numenology.numen_brick_stairs": "Ступени из нуменовых кирпичей",
+  "block.numenology.runic_numen_bricks": "Рунические нуменовые кирпичи",
+
+// БЛОКИ: ФЛОРА
+  "block.numenology.turquoise_bush": "Куст Бирюзы",
+
+// ПРЕДМЕТЫ: МАТЕРИАЛЫ И РЕСУРСЫ
+  "item.numenology.numen_resin": "Нуменовая смола",
+  "item.numenology.slag": "Шлак",
+  "item.numenology.imbued_leather": "Пропитанная кожа",
+  "item.numenology.numen_fabric": "Нуменовая ткань",
+  "item.numenology.canvas_fabric": "Холщовая ткань",
+  "item.numenology.numen_steel_ingot": "Слиток нуменовой стали",
+  "item.numenology.superconductor": "Сверхпроводник",
+  "item.numenology.lamellar_plate": "Ламеллярная пластина",
+
+// ПРЕДМЕТЫ: ИНСТРУМЕНТЫ И ПРИБОРЫ
+  "item.numenology.numenometer": "Нуменометр",
+  "item.numenology.focusing_lens": "Фокусировочная линза",
+  "item.numenology.monocular": "Монокуляр",
+  "item.numenology.focusing_gauntlet": "Фокусировочная перчатка",
+  "item.numenology.scriber_tools": "Инструменты писаря",
+  "item.numenology.numen_codex": "Нумен Кодекс",
+
+// ПРЕДМЕТЫ: БРОНЯ
+  "item.numenology.numen_steel_helmet": "Шлем из нуменовой стали",
+  "item.numenology.numen_steel_chestplate": "Кираса из нуменовой стали",
+  "item.numenology.numen_steel_leggings": "Поножи из нуменовой стали",
+  "item.numenology.numen_steel_boots": "Ботинки из нуменовой стали",
+  "item.numenology.lamellar_chestplate": "Ламеллярная кираса",
+
+// ПРЕДМЕТЫ: ОРУЖИЕ
+  "item.numenology.numen_sword": "Нуменово-стальной меч",
+
+// ПРЕДМЕТЫ: ЕДА
+  "item.numenology.turquoise_berries": "Ягоды Бирюзы",
+  "item.numenology.jam_jar": "Банка для варенья",
+  "item.numenology.turquoise_jam": "Бирюзовое варенье",
+  "item.numenology.berries_jam": "Ягодное варенье",
+  "item.numenology.jam_sandwich": "Бутерброд с вареньем",
+  "item.numenology.turquoise_jam_sandwich": "Бутерброд с  бирюзовым вареньем",
+
+// ПРЕДМЕТЫ: СУМКИ И КОНТЕЙНЕРЫ
+  "item.numenology.garden_bag": "Садовый мешок",
+  "item.numenology.garden_bag.full": "Содержит: Куст Бирюзы",
+  "item.numenology.garden_bag.empty": "Пусто",
+  "item.numenology.duffel_bag": "Вещмешок",
+
+// КОДЕКС: КАТЕГОРИИ КРУГОВ
+  "research.numenology.category.circle_1": "Круг исследований I - Основы",
+  "research.numenology.category.circle_1.home": "Первый круг исследований посвящен базовому знакомству с силой Нумена. Здесь я зафиксировал свои первые наблюдения за тем, как энергия существует и воздействует на мир.",
+
+  "research.numenology.category.circle_2": "Круг исследований II - Алхимия",
+  "research.numenology.category.circle_2.home": "Второй круг откроет тайны более глубокого взаимодействия. Здесь начнется истинная алхимия и трансмутация высшего порядка, требующая стабильных катализаторов.",
+
+  "research.numenology.category.circle_3": "Круг исследований III - Металлургия",
+  "research.numenology.category.circle_3.home": "Третий круг исследований — здесь я записал как энергия Нумена взаимодействует и изменяет материалы под воздействием жара и катализаторов, Два слова - магическая металлургия.",
+
+// КОДЕКС: КРУГ I — ОСНОВЫ
+  "research.numenology.first_contact_numen.title": "Первый контакт",
+  "research.numenology.first_contact_numen.page1": "Держа эту книгу в руках, я наконец решаюсь зафиксировать то, что не давало мне покоя последние дни. Мир вокруг устроен гораздо сложнее, чем кажется.",
+  "research.numenology.first_contact_numen.page2": "Я отчётливо ощущаю присутствие какой-то невидимой, сверхъестественной силы, буквально пронизывающей пространство вокруг.\nЭто не привычный редстоун и не просто «питание» для механизмов в привычном понимании.",
+  "research.numenology.first_contact_numen.page3": "Эта энергия осязаема. Более того, под землёй, в глубоких каменных и сланцевых пластах, она умудряется кристаллизоваться, превращаясь во что-то вроде твёрдой, плотной смолы. Но что странно... Не все материалы реагируют с ней. ",
+  "research.numenology.first_contact_numen.page4": "Некоторые материалы ведут себя так, будто этой силы вообще не существует. Они абсолютно инертны, словно изолируют или отталкивают её физическое проявление. Мне нужно понять, почему так происходит.",
+
+  "research.numenology.hematite_processing.title": "Новый материал",
+  "research.numenology.hematite_processing.page1": "Изучая свойства обычного глубинного сланца в сочетании с железом, я обнаружил удивительный эффект. Если спрессовать их вместе на верстаке, получается новый материал - Гематит",
+  "research.numenology.hematite_processing.page2": "Этот материал обладает высокой инертностью к Нумену. Пока что это отличная основа для кирпичей, но его свойства могут пригодится в будущем.",
+
+  "research.numenology.crucible_basics.title": "Первые шаги алхимии",
+  "research.numenology.crucible_basics.page1": "Изучив структуру Гематита, я понял, что его уникальная плотность — ключ к обузданию Нумена. Обычные сосуды не выдерживают энергию, но гематитовый тигель способен полностью изолировать среду внутри себя.",
+  "research.numenology.crucible_basics.page2": "Такая идеальная изоляция делает его незаменимым для деликатных процессов. Мои расчёты показывают: эта структура, способна выдержать температуру и натиск Нуменовой смолы, позволяя безопасно растопить её для алхимических нужд.",
+  "research.numenology.crucible_basics.recipe_text": "Для сборки тигеля потребуются гематитовые плиты и железные обода для удержания формы. Для работы нужно установить над огнём.",
+
+  "research.numenology.numen_transmutation_tier1.title": "Первая трансмутация",
+  "research.numenology.transmutation_tier1.page1": "Первый опыт обернулся неудачей — материал превратился в бесполезный шлак. Однако эта неудача сделала открытие: некоторые материалы вступают в реакцию с Нуменом, изменяя свои свойства.",
+  "research.numenology.transmutation_craft.page1": "Мой первый опыт показал, нельзя кидать всё подряд в котёл, иначе материал просто превращается в шлак.",
+  "research.numenology.transmutation_craft.page2": "Если в раствор окунуть овечью шерсть, у меня получается материал похожий на магическую ткань.",
+  "research.numenology.transmutation_craft.page3": "При вымачиваннии кожи в растворе, я заметил, что вываренная кожа становится прочнее и податливее.",
+  "research.numenology.transmutation_craft.page4": "При варке камня в растворе, он меняет свои свойства сильнее всего, он начинает пульсировать изнутри.",
+
+  "research.numenology.heated_forge.title": "Раскалённая кузня",
+  "research.numenology.heated_forge.page1": "Нуменовые кирпичи оказались отличным проводником энергии. Если пустить её по замкнутому контуру кузни, температура плавления превысит любые пределы. Это позволит сплавлять металлы и минералы с нуменовой смолой,",
+  "research.numenology.heated_forge.page2": "открывая путь к созданию принципиально новых материалов. Стоит подготовить чертёж.",
+  "research.numenology.heated_forge.page3": "Для этой плавильни понадобится специальный контроллер \nв который я буду загружать \nингридиенты.",
+
+  "research.numenology.molten_steel.title": "Жидкая сталь",
+  "research.numenology.molten_steel.page1": "Собрав плавильню, я осознал нечто поразительное: она не требует привычного топлива. Конструкция подпитывается чистой энергией Нумена, которая пронизывает этот мир, хоть я пока и не способен её увидеть.",
+  "research.numenology.molten_steel.page2": "Сила, этого невидимого поля позволяет плавить металлы и минералы вместе со смолой, наделяя сплавы уникальными свойствами.",
+  "craft.numenology.molten_steel.page1": "Мой первый стабильный сплав! Магически наполненное железо, которое я назову Нуменовая сталь.",
+  "craft.numenology.molten_steel.page2": "Попытка сплавлять медь со смолой привела к появлению сплава-сверхпроводника.",
+  "craft.numenology.molten_steel.page3": "Эксперимент с песком прошёл удачно, итогом стало прекрасное стекло с фокусирующими свойствами.",
+
+  "research.numenology.research_tools.title": "Инструменты исследования",
+  "research.numenology.research_tools.page1": "Получение нуменовых стали и стекла с особыми свойствами открывает передо мной невероятные перспективы. Их комбинация позволит мне создать совершенно новые приборы.",
+  "research.numenology.research_tools.page2": "Они позволят уловить и зафиксировать те самые невидимые энергетические потоки, что пронизывают всё вокруг. Пришло время материализовать скрытое.",
+  "research.numenology.research_tools.lens_craft": "Фокусировочная линза — базовый оптический элемент для будущих приборов.",
+  "research.numenology.research_tools.numenometer_craft": "Нуменометр — важнейшее устройство для поиска и анализа Нумен-узлов в окружающем мире.",
+  "research.numenology.research_tools.monocular_craft": "Монокуляр — позволяет визуально наблюдать за границами энергетических полей на расстоянии.",
+  "research.numenology.research_tools.gauntlet_craft": "Фокусировочная перчатка — первый шаг к прямому манипулированию и управлению энергией.",
+
+  "research.numenology.nodes_and_aspects.title": "Узлы и аспекты",
+  "research.numenology.nodes_and_aspects.desc": "Энергия Нумена концентрируется в особых местах. Эти узлы бывают разными и влияют на окружающий мир.",
+
+  "research.numenology.force_unleashed.title": "Необузданная сила",
+  "research.numenology.force_unleashed.desc": "Нумен не подчиняется — он течёт, истощается и восстанавливается. Чтобы использовать его, нужно понять его природу.",
+
+  "research.numenology.magic_flora.title": "Магическая флора",
+  "research.numenology.magic_flora.page_1": "Окружающая нас природа таит в себе гораздо больше тайн, чем кажется на первый взгляд. Срезав кору этого необычного дерева, я ощутил странное, покалывание на кончиках пальцев.",
+  "research.numenology.magic_flora.page_2": "Это открытие доказывает, что в мире существуют особые магические деревья и растения. Они приспособились к различным биомам и развили уникальные свойства, которые явно зависят от токов фоновой энергии.",
+  "research.numenology.flora.numen_tree.desc": "Нуменовое древо - Волшебное древо, пронизанное энергией Нумен. Создается ощущение, что оно напрямую влияет на энергетические потоки в мире.",
+  "research.numenology.flora.turquoise_bush.desc": "Куст Бирюзы - Кустарник, произрастающий только вблизи нуменовых деревьев. Наполненные энергией плоды обладают выраженными регенерирующими свойствами.",
+  "research.numenology.flora.umbra_tree.desc": "Умбра древо - Массивное, внушающее трепет древо. Похоже, что оно активно поглощает и фильтрует окружающую энергию мира.",
+  "research.numenology.flora.lumen_tree.desc": "Люмен древо - Светлое и теплое дерево. Ощущение тепла от него говорит о том, что оно благоприятно воздействует на энергетическое поле вокруг себя."
+
+
+
+
+//КОДЕКС: КРУГ II — АЛХИМИЯ
+
+
+// КОДЕКС: КРУГ III — МЕТАЛЛУРГИЯ
+
+}

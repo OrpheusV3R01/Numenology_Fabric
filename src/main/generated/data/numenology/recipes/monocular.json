@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": {
+      "item": "numenology:focusing_lens"
+    },
+    "L": {
+      "item": "numenology:imbued_leather"
+    }
+  },
+  "pattern": [
+    "   ",
+    "LFL",
+    "   "
+  ],
+  "result": {
+    "item": "numenology:monocular"
+  },
+  "show_notification": true
+}

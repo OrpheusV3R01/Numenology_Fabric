@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "item": "minecraft:dirt"
+    },
+    "F": {
+      "item": "numenology:numen_fabric"
+    },
+    "L": {
+      "item": "numenology:imbued_leather"
+    }
+  },
+  "pattern": [
+    "LFL",
+    "FDF",
+    "FFF"
+  ],
+  "result": {
+    "item": "numenology:garden_bag"
+  },
+  "show_notification": true
+}

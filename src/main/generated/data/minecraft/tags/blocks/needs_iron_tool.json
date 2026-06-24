@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "numenology:numen_ore",
+    "numenology:deepslate_numen_ore",
+    "numenology:numen_crucible",
+    "numenology:numen_steel_block",
+    "numenology:numen_smeltery",
+    "numenology:numen_stone",
+    "numenology:numen_bricks",
+    "numenology:hematite_block",
+    "numenology:hematite_bricks"
+  ]
+}

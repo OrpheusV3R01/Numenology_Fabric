@@ -1,0 +1,48 @@
+{
+  "pages": [
+    {
+      "type": "text",
+      "text":   "research.numenology.transmutation_tier1.page1"
+    },
+    {
+      "type": "image",
+      "text":  "research.numenology.transmutation_craft.page1",
+      "image": "textures/gui/crucible_craft_slag.png",
+      "width": 128,
+      "height": 128,
+      "scale": 0.72,
+      "x_offset": 0,
+      "y_offset": -10
+    },
+    {
+      "type": "image",
+      "text":  "research.numenology.transmutation_craft.page2",
+      "image": "textures/gui/crucible_craft_fabric.png",
+      "width": 128,
+      "height": 128,
+      "scale": 0.72,
+      "x_offset": -10,
+      "y_offset": -10
+    },
+    {
+      "type": "image",
+      "text":  "research.numenology.transmutation_craft.page3",
+      "image": "textures/gui/crucible_craft_imbued_leather.png",
+      "width": 128,
+      "height": 128,
+      "scale": 0.72,
+      "x_offset": 0,
+      "y_offset": -10
+    },
+    {
+      "type": "image",
+      "text":  "research.numenology.transmutation_craft.page4",
+      "image": "textures/gui/crucible_craft_numen_stone.png",
+      "width": 128,
+      "height": 128,
+      "scale": 0.72,
+      "x_offset": -10,
+      "y_offset": -10
+    }
+  ]
+}

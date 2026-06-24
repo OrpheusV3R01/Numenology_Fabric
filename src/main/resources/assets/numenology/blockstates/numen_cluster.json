@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=down": { "model": "numenology:block/numen_cluster", "x": 180 },
+    "facing=up": { "model": "numenology:block/numen_cluster" },
+    "facing=north": { "model": "numenology:block/numen_cluster", "x": 90 },
+    "facing=south": { "model": "numenology:block/numen_cluster", "x": 90, "y": 180 },
+    "facing=west": { "model": "numenology:block/numen_cluster", "x": 90, "y": 270 },
+    "facing=east": { "model": "numenology:block/numen_cluster", "x": 90, "y": 90 }
+  }
+}

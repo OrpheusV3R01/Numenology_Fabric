@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:sweet_berries"
+    },
+    "J": {
+      "item": "numenology:jam_jar"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    "   ",
+    "JSB",
+    "   "
+  ],
+  "result": {
+    "item": "numenology:berries_jam"
+  },
+  "show_notification": true
+}

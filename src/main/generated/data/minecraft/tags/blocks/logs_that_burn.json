@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "numenology:numen_log",
+    "numenology:numen_resin_log",
+    "numenology:umbra_log",
+    "numenology:umbra_resin_log",
+    "numenology:lumen_log",
+    "numenology:lumen_resin_log"
+  ]
+}

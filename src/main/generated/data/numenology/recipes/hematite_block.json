@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "D": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "I": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "IDI",
+    "DID",
+    "IDI"
+  ],
+  "result": {
+    "count": 4,
+    "item": "numenology:hematite_block"
+  },
+  "show_notification": true
+}

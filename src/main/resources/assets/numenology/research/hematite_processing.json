@@ -1,0 +1,15 @@
+{
+  "pages": [
+    {
+      "type": "text",
+      "text": "research.numenology.hematite_processing.page1"
+    },
+    {
+      "type": "crafting",
+      "text": "research.numenology.hematite_processing.page2",
+      "recipe": "numenology:hematite_block",
+      "x_offset": 0,
+      "y_offset": -7
+    }
+  ]
+}

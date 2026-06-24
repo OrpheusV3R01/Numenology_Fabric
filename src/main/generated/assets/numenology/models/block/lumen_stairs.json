@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "numenology:block/lumen_planks",
+    "side": "numenology:block/lumen_planks",
+    "top": "numenology:block/lumen_planks"
+  }
+}

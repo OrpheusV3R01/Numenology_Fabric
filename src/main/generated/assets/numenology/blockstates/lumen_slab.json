@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "numenology:block/lumen_slab"
+    },
+    "type=double": {
+      "model": "numenology:block/lumen_planks"
+    },
+    "type=top": {
+      "model": "numenology:block/lumen_slab_top"
+    }
+  }
+}

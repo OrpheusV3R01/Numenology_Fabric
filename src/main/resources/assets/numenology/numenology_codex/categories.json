@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "id": "circle_1",
+      "title_key": "research.numenology.category.circle_1",
+      "home_page_key": "research.numenology.category.circle_1.home",
+      "icon_item": "numenology:numen_codex",
+      "research_ids": [
+        "numenology:first_contact_numen",
+        "numenology:magic_flora",
+        "numenology:nodes_and_aspects",
+        "numenology:force_unleashed",
+        "numenology:hematite_processing",
+        "numenology:heated_forge",
+        "numenology:molten_steel",
+        "numenology:research_tools",
+        "numenology:crucible_basics",
+        "numenology:numen_transmutation_tier1"
+      ]
+    },
+    {
+      "id": "circle_2",
+      "title_key": "research.numenology.category.circle_2",
+      "home_page_key": "research.numenology.category.circle_2.home",
+      "icon_item": "numenology:numen_crucible",
+      "research_ids": []
+    },
+    {
+      "id": "circle_3",
+      "title_key": "research.numenology.category.circle_3",
+      "home_page_key": "research.numenology.category.circle_3.home",
+      "icon_item": "numenology:numen_smeltery",
+      "research_ids": []
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "numenology:numen_smeltery",
+
+  "inputA": {
+    "item": "numenology:numen_resin",
+    "count": 3
+  },
+
+  "inputB": {
+    "item": "minecraft:iron_ingot",
+    "count": 2
+  },
+
+  "result": {
+    "item": "numenology:numen_steel_ingot",
+    "count": 2
+  }
+}

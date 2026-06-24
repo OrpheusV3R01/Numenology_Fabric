@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": {
+      "item": "numenology:focusing_lens"
+    },
+    "I": {
+      "item": "numenology:numen_steel_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  F",
+    " I ",
+    "S  "
+  ],
+  "result": {
+    "item": "numenology:numenometer"
+  },
+  "show_notification": true
+}

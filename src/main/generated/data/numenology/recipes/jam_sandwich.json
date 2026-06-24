@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bread"
+    },
+    "J": {
+      "item": "numenology:berries_jam"
+    }
+  },
+  "pattern": [
+    "   ",
+    "JB ",
+    "   "
+  ],
+  "result": {
+    "count": 4,
+    "item": "numenology:jam_sandwich"
+  },
+  "show_notification": true
+}

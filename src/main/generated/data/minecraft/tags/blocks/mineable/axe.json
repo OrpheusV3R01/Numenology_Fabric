@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "numenology:numen_log",
+    "numenology:numen_resin_log",
+    "numenology:stripped_numen_log",
+    "numenology:numen_planks",
+    "numenology:numen_slab",
+    "numenology:numen_stairs",
+    "numenology:numen_fence",
+    "numenology:numen_fence_gate",
+    "numenology:numen_door",
+    "numenology:umbra_door",
+    "numenology:lumen_door",
+    "numenology:umbra_log",
+    "numenology:umbra_resin_log",
+    "numenology:stripped_umbra_log",
+    "numenology:umbra_planks",
+    "numenology:umbra_slab",
+    "numenology:umbra_stairs",
+    "numenology:umbra_fence",
+    "numenology:umbra_fence_gate",
+    "numenology:research_table",
+    "numenology:lumen_log",
+    "numenology:lumen_resin_log",
+    "numenology:stripped_lumen_log",
+    "numenology:lumen_planks",
+    "numenology:lumen_slab",
+    "numenology:lumen_stairs",
+    "numenology:lumen_fence",
+    "numenology:lumen_fence_gate"
+  ]
+}

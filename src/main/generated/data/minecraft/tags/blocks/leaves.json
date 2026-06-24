@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "numenology:numen_leaves",
+    "numenology:umbra_leaves",
+    "numenology:lumen_leaves"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "numenology:numen_smeltery",
+
+  "inputA": {
+    "item": "numenology:numen_resin",
+    "count": 3
+  },
+
+  "inputB": {
+    "item": "minecraft:copper_ingot",
+    "count": 2
+  },
+
+  "result": {
+    "item": "numenology:superconductor",
+    "count": 2
+  }
+}

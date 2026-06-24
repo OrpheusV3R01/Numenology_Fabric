@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "numenology:umbra_log"
+    },
+    "C": {
+      "item": "numenology:numen_slab"
+    },
+    "D": {
+      "item": "numenology:umbra_planks"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "D D",
+    "D D"
+  ],
+  "result": {
+    "item": "numenology:research_table"
+  },
+  "show_notification": true
+}

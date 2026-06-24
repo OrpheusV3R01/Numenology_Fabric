@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "numenology:block/umbra_resin_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "numenology:block/umbra_resin_log"
+    },
+    "axis=z": {
+      "model": "numenology:block/umbra_resin_log_horizontal",
+      "x": 90
+    }
+  }
+}

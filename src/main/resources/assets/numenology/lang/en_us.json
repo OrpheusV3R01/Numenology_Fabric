@@ -1,0 +1,230 @@
+{
+// CREATIVE TAB
+  "itemgroup.numenology": "Numenology",
+
+// HUD / GUI
+  "hud.numenology.chunk.title": "Area Analysis",
+  "hud.numenology.chunk.energy": "Energy",
+  "hud.numenology.chunk.miasma": "Miasma Level",
+  "hud.numenology.chunk.stability": "Stability",
+
+  "numenology.numen_field": "Numen Field",
+  "numenology.energy": "Energy: %s",
+  "numenology.miasma": "Miasma: %s",
+  "numenology.stability": "Stability: %s",
+
+  "gui.numenology.drying_table.title": "Drying Table",
+  "gui.numenology.smeltery.line1": "Numen",
+  "gui.numenology.smeltery.line2": "Smeltery",
+  "gui.numenology.research_table.button.research": "Research",
+  "container.inventory": "Inventory",
+
+// KEYBINDS
+  "key.numenology.open_duffel_bag": "Open Duffel Bag",
+  "category.numenology.keys": "Numenology",
+
+// EMI (RECIPES)
+  "emi.category.numenology.drying": "Drying Table",
+
+// NODE TYPES
+  "nodetype.numenology.normal": "NATURAL NODE",
+  "nodetype.numenology.pure": "PURE NODE",
+  "nodetype.numenology.fading": "FADING NODE",
+  "nodetype.numenology.hungry": "HUNGRY NODE",
+  "nodetype.numenology.collapsing": "COLLAPSING NODE",
+  "nodetype.numenology.infected": "INFECTED NODE",
+  "nodetype.numenology.stabilized": "STABILIZED NODE",
+
+// CHAT MESSAGES
+  "chat.numenology.numenometer.nodeempty": "Aspects depleted, \nusing pure \nNumen",
+  "chat.numenology.numenometer.nodepure": "Pure node",
+  "chat.numenology.numenometer.aspects": "Aspects:",
+
+// BLOCKS: ORES
+  "block.numenology.numen_ore": "Numen Ore",
+  "block.numenology.deepslate_numen_ore": "Deepslate Numen Ore",
+
+// BLOCKS: SPECIAL
+  "block.numenology.numen_node": "Numen Node",
+  "block.numenology.numen_cluster": "Resin Cluster",
+  "block.numenology.numen_crucible": "Alchemical Crucible",
+  "block.numenology.drying_table": "Drying Table",
+  "block.numenology.research_table": "Research Table",
+  "block.numenology.numen_smeltery": "Numen Smeltery",
+  "block.numenology.numen_steel_block": "Numen Steel Block",
+  "block.numenology.numen_glass": "Numen Glass",
+
+// BLOCKS: NUMEN WOOD
+  "block.numenology.numen_log": "Numen Log",
+  "block.numenology.numen_resin_log": "Numen Resin Log",
+  "block.numenology.stripped_numen_log": "Stripped Numen Log",
+  "block.numenology.numen_planks": "Numen Planks",
+  "block.numenology.numen_sapling": "Numen Sapling",
+  "block.numenology.numen_leaves": "Numen Leaves",
+  "block.numenology.numen_slab": "Numen Slab",
+  "block.numenology.numen_stairs": "Numen Stairs",
+  "block.numenology.numen_fence": "Numen Fence",
+  "block.numenology.numen_fence_gate": "Numen Fence Gate",
+  "block.numenology.numen_door": "Numen Door",
+
+// BLOCKS: UMBRA WOOD
+  "block.numenology.umbra_log": "Umbra Log",
+  "block.numenology.umbra_resin_log": "Umbra Resin Log",
+  "block.numenology.stripped_umbra_log": "Stripped Umbra Log",
+  "block.numenology.umbra_planks": "Umbra Planks",
+  "block.numenology.umbra_sapling": "Umbra Sapling",
+  "block.numenology.umbra_leaves": "Umbra Leaves",
+  "block.numenology.umbra_slab": "Umbra Slab",
+  "block.numenology.umbra_stairs": "Umbra Stairs",
+  "block.numenology.umbra_fence": "Umbra Fence",
+  "block.numenology.umbra_fence_gate": "Umbra Fence Gate",
+  "block.numenology.umbra_door": "Umbra Door",
+
+// BLOCKS: LUMEN WOOD
+  "block.numenology.lumen_log": "Lumen Log",
+  "block.numenology.lumen_resin_log": "Lumen Resin Log",
+  "block.numenology.stripped_lumen_log": "Stripped Lumen Log",
+  "block.numenology.lumen_planks": "Lumen Planks",
+  "block.numenology.lumen_sapling": "Lumen Sapling",
+  "block.numenology.lumen_leaves": "Lumen Leaves",
+  "block.numenology.lumen_slab": "Lumen Slab",
+  "block.numenology.lumen_stairs": "Lumen Stairs",
+  "block.numenology.lumen_fence": "Lumen Fence",
+  "block.numenology.lumen_fence_gate": "Lumen Fence Gate",
+  "block.numenology.lumen_door": "Lumen Door",
+
+// BLOCKS: HEMATITE
+  "block.numenology.hematite_block": "Hematite",
+  "block.numenology.hematite_slab": "Hematite Slab",
+  "block.numenology.hematite_stairs": "Hematite Stairs",
+  "block.numenology.hematite_bricks": "Hematite Bricks",
+  "block.numenology.hematite_brick_slab": "Hematite Brick Slab",
+  "block.numenology.hematite_brick_stairs": "Hematite Brick Stairs",
+
+// BLOCKS: NUMEN STONE & BRICKS
+  "block.numenology.numen_stone": "Numen Stone",
+  "block.numenology.numen_stone_slab": "Numen Stone Slab",
+  "block.numenology.numen_stone_stairs": "Numen Stone Stairs",
+  "block.numenology.numen_bricks": "Numen Bricks",
+  "block.numenology.numen_brick_slab": "Numen Brick Slab",
+  "block.numenology.numen_brick_stairs": "Numen Brick Stairs",
+  "block.numenology.runic_numen_bricks": "Runic Numen Bricks",
+
+// BLOCKS: FLORA
+  "block.numenology.turquoise_bush": "Turquoise Bush",
+
+// ITEMS: MATERIALS & RESOURCES
+  "item.numenology.numen_resin": "Numen Resin",
+  "item.numenology.slag": "Slag",
+  "item.numenology.imbued_leather": "Imbued Leather",
+  "item.numenology.numen_fabric": "Numen Fabric",
+  "item.numenology.canvas_fabric": "Canvas Fabric",
+  "item.numenology.numen_steel_ingot": "Numen Steel Ingot",
+  "item.numenology.superconductor": "Superconductor",
+  "item.numenology.lamellar_plate": "Lamellar Plate",
+
+// ITEMS: TOOLS & INSTRUMENTS
+  "item.numenology.numenometer": "Numenometer",
+  "item.numenology.focusing_lens": "Focusing Lens",
+  "item.numenology.monocular": "Monocular",
+  "item.numenology.focusing_gauntlet": "Focusing Gauntlet",
+  "item.numenology.scriber_tools": "Scriber's Tools",
+  "item.numenology.numen_codex": "Numen Codex",
+
+// ITEMS: ARMOR
+  "item.numenology.numen_steel_helmet": "Numen Steel Helmet",
+  "item.numenology.numen_steel_chestplate": "Numen Steel Chestplate",
+  "item.numenology.numen_steel_leggings": "Numen Steel Leggings",
+  "item.numenology.numen_steel_boots": "Numen Steel Boots",
+  "item.numenology.lamellar_chestplate": "Lamellar Chestplate",
+
+// ITEMS: WEAPONS
+  "item.numenology.numen_sword": "Numen Steel Sword",
+
+// ITEMS: FOOD
+  "item.numenology.turquoise_berries": "Turquoise Berries",
+  "item.numenology.jam_jar": "Jam Jar",
+  "item.numenology.turquoise_jam": "Turquoise Jam",
+  "item.numenology.berries_jam": "Berry Jam",
+  "item.numenology.jam_sandwich": "Jam Sandwich",
+  "item.numenology.turquoise_jam_sandwich": "Turquoise Jam Sandwich",
+
+// ITEMS: BAGS & CONTAINERS
+  "item.numenology.garden_bag": "Garden Bag",
+  "item.numenology.garden_bag.full": "Contains: Turquoise Bush",
+  "item.numenology.garden_bag.empty": "Empty",
+  "item.numenology.duffel_bag": "Duffel Bag",
+
+// CODEX: RESEARCH CIRCLES
+  "research.numenology.category.circle_1": "Research Circle I - Fundamentals",
+  "research.numenology.category.circle_1.home": "The first research circle is dedicated to a basic introduction to the power of Numen. Here I have recorded my first observations of how this energy exists and affects the world.",
+
+  "research.numenology.category.circle_2": "Research Circle II - Alchemy",
+  "research.numenology.category.circle_2.home": "The second circle will unveil the secrets of deeper interaction. True alchemy and transmutation of a higher order begin here, requiring stable catalysts.",
+
+  "research.numenology.category.circle_3": "Research Circle III - Metallurgy",
+  "research.numenology.category.circle_3.home": "The third research circle — here I have written down how Numen energy interacts with and transforms materials under the influence of heat and catalysts. Two words: magical metallurgy.",
+
+// CODEX: CIRCLE I — FUNDAMENTALS
+  "research.numenology.first_contact_numen.title": "First Contact",
+  "research.numenology.first_contact_numen.page1": "Holding this book in my hands, I finally dare to put into words what has troubled me these past days. The world around us is far more complex than it appears.",
+  "research.numenology.first_contact_numen.page2": "I can clearly sense the presence of some invisible, supernatural force literally permeating the space around me.\nThis is not ordinary redstone, nor simply \"power\" for mechanisms in the conventional sense.",
+  "research.numenology.first_contact_numen.page3": "This energy is tangible. Moreover, deep underground, within the stone and deepslate layers, it somehow crystallizes, forming something like a solid, dense resin. But what is strange... not all materials react to it.",
+  "research.numenology.first_contact_numen.page4": "Some materials behave as though this force does not exist at all. They are completely inert, as if they isolate or repel its physical manifestation. I need to understand why.",
+
+  "research.numenology.hematite_processing.title": "A New Material",
+  "research.numenology.hematite_processing.page1": "While studying the properties of common deepslate combined with iron, I discovered a remarkable effect. Compressing them together on a crafting table yields a new material — Hematite.",
+  "research.numenology.hematite_processing.page2": "This material shows a high degree of inertness toward Numen. For now it makes an excellent base for bricks, but its properties may prove useful in the future.",
+
+  "research.numenology.crucible_basics.title": "First Steps of Alchemy",
+  "research.numenology.crucible_basics.page1": "Having studied the structure of Hematite, I realized that its unique density is the key to taming Numen. Ordinary vessels cannot withstand the energy, but a hematite crucible can fully isolate the environment within.",
+  "research.numenology.crucible_basics.page2": "Such perfect isolation makes it indispensable for delicate processes. My calculations show that this structure can withstand the temperature and pressure of Numen Resin, allowing it to be safely melted for alchemical purposes.",
+  "research.numenology.crucible_basics.recipe_text": "Assembling the crucible requires hematite slabs and iron bands to hold the shape together. It must be placed over a fire to operate.",
+
+  "research.numenology.numen_transmutation_tier1.title": "First Transmutation",
+  "research.numenology.transmutation_tier1.page1": "The first experiment ended in failure — the material turned into useless slag. However, this failure led to a discovery: some materials react with Numen, altering their properties.",
+  "research.numenology.transmutation_craft.page1": "My first attempt made one thing clear: you cannot throw just anything into the cauldron, or the material will simply turn to slag.",
+  "research.numenology.transmutation_craft.page2": "When wool is submerged in the solution, the result is a material resembling magical fabric.",
+  "research.numenology.transmutation_craft.page3": "Soaking leather in the solution, I noticed that the treated hide becomes stronger and more pliable.",
+  "research.numenology.transmutation_craft.page4": "When stone is boiled in the solution, its properties change the most dramatically — it begins to pulse from within.",
+
+
+  "research.numenology.heated_forge.title": "The Heated Forge",
+  "research.numenology.heated_forge.page1": "Numen bricks turned out to be excellent energy conductors. If the energy is directed through a closed circuit within the forge, the melting temperature will exceed any known limit. This will allow metals and minerals to be alloyed with Numen resin,",
+  "research.numenology.heated_forge.page2": "opening the path to entirely new materials. It is time to prepare a blueprint.",
+  "research.numenology.heated_forge.page3": "This smeltery will require a special controller\ninto which I will load\nthe ingredients.",
+
+  "research.numenology.molten_steel.title": "Molten Steel",
+  "research.numenology.molten_steel.page1": "Having assembled the smeltery, I realized something astonishing: it requires no conventional fuel. The structure is powered by the pure energy of Numen that permeates this world, even though I cannot yet see it.",
+  "research.numenology.molten_steel.page2": "The power of this invisible field allows metals and minerals to be melted together with the resin, granting the resulting alloys unique properties.",
+  "craft.numenology.molten_steel.page1": "My first stable alloy! Magically infused iron, which I shall call Numen Steel.",
+  "craft.numenology.molten_steel.page2": "An attempt to alloy copper with the resin produced a superconductor alloy.",
+  "craft.numenology.molten_steel.page3": "The experiment with sand was a success, resulting in beautiful glass with focusing properties.",
+
+  "research.numenology.research_tools.title": "Research Instruments",
+  "research.numenology.research_tools.page1": "Obtaining Numen steel and glass with special properties opens incredible possibilities before me. Their combination will allow me to craft entirely new instruments.",
+  "research.numenology.research_tools.page2": "These instruments will let me detect and measure the very invisible energy flows that permeate everything around us. The time has come to make the hidden visible.",
+  "research.numenology.research_tools.lens_craft": "Focusing Lens — a basic optical element for future instruments.",
+  "research.numenology.research_tools.numenometer_craft": "Numenometer — a crucial device for locating and analyzing Numen nodes in the surrounding world.",
+  "research.numenology.research_tools.monocular_craft": "Monocular — allows visual observation of energy field boundaries from a distance.",
+  "research.numenology.research_tools.gauntlet_craft": "Focusing Gauntlet — the first step toward directly manipulating and controlling energy.",
+
+  "research.numenology.nodes_and_aspects.title": "Nodes and Aspects",
+  "research.numenology.nodes_and_aspects.desc": "Numen energy concentrates in special locations. These nodes vary in nature and influence the world around them.",
+
+  "research.numenology.force_unleashed.title": "Untamed Force",
+  "research.numenology.force_unleashed.desc": "Numen does not obey — it flows, depletes, and replenishes. To harness it, one must first understand its nature.",
+
+  "research.numenology.magic_flora.title": "Magical Flora",
+  "research.numenology.magic_flora.page_1": "The nature surrounding us holds far more secrets than it first appears. As I stripped the bark from this unusual tree, I felt a strange tingling at my fingertips.",
+  "research.numenology.magic_flora.page_2": "This discovery proves that special magical trees and plants exist in this world. They have adapted to various biomes and developed unique properties that clearly depend on the currents of background energy.",
+  "research.numenology.flora.numen_tree.desc": "Numen Tree — A magical tree suffused with Numen energy. It seems to directly influence the energetic flows of the world.",
+  "research.numenology.flora.turquoise_bush.desc": "Turquoise Bush — A shrub that grows only near Numen trees. Its energy-filled fruits possess pronounced regenerative properties.",
+  "research.numenology.flora.umbra_tree.desc": "Umbra Tree — A massive, awe-inspiring tree. It appears to actively absorb and filter the surrounding energy of the world.",
+  "research.numenology.flora.lumen_tree.desc": "Lumen Tree — A bright and warm tree. The warmth radiating from it suggests it has a beneficial effect on the energy field around it."
+
+// CODEX: CIRCLE II — ALCHEMY
+
+// CODEX: CIRCLE III — METALLURGY
+
+}

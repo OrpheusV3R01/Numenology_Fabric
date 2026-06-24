@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "state=empty,facing=north": { "model": "numenology:block/research_table_empty" },
+    "state=empty,facing=south": { "model": "numenology:block/research_table_empty", "y": 180 },
+    "state=empty,facing=west":  { "model": "numenology:block/research_table_empty", "y": 270 },
+    "state=empty,facing=east":  { "model": "numenology:block/research_table_empty", "y": 90 },
+
+    "state=tools,facing=north": { "model": "numenology:block/research_table_tools" },
+    "state=tools,facing=south": { "model": "numenology:block/research_table_tools", "y": 180 },
+    "state=tools,facing=west":  { "model": "numenology:block/research_table_tools", "y": 270 },
+    "state=tools,facing=east":  { "model": "numenology:block/research_table_tools", "y": 90 },
+
+    "state=tools_paper,facing=north": { "model": "numenology:block/research_table_tools_paper" },
+    "state=tools_paper,facing=south": { "model": "numenology:block/research_table_tools_paper", "y": 180 },
+    "state=tools_paper,facing=west":  { "model": "numenology:block/research_table_tools_paper", "y": 270 },
+    "state=tools_paper,facing=east":  { "model": "numenology:block/research_table_tools_paper", "y": 90 },
+
+    "state=full,facing=north": { "model": "numenology:block/research_table_full" },
+    "state=full,facing=south": { "model": "numenology:block/research_table_full", "y": 180 },
+    "state=full,facing=west":  { "model": "numenology:block/research_table_full", "y": 270 },
+    "state=full,facing=east":  { "model": "numenology:block/research_table_full", "y": 90 }
+  }
+}

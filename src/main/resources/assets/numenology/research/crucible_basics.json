@@ -1,0 +1,28 @@
+{
+  "pages": [
+    {
+      "type": "text",
+      "text":   "research.numenology.crucible_basics.page1"
+    },
+    {
+      "type": "text",
+      "text":  "research.numenology.crucible_basics.page2"
+    },
+    {
+      "type": "crafting",
+      "text": "research.numenology.crucible_basics.recipe_text",
+      "recipe": "numenology:numen_crucible",
+      "x_offset": 0,
+      "y_offset": -5
+    },
+    {
+      "type": "image",
+      "image": "textures/gui/crucible_guide1.png",
+      "width": 128,
+      "height": 128,
+      "scale": 0.72,
+      "x_offset": 0,
+      "y_offset": 10
+    }
+  ]
+}

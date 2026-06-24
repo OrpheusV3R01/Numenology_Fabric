@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_nugget"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    "ILI",
+    "LLL",
+    "ILI"
+  ],
+  "result": {
+    "count": 3,
+    "item": "numenology:lamellar_plate"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/glass",
+  "textures": {
+    "particle": "numenology:block/numen_glass",
+    "all": "numenology:block/numen_glass"
+  }
+}

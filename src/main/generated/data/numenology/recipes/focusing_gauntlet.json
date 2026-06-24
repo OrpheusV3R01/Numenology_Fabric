@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": {
+      "item": "numenology:focusing_lens"
+    },
+    "I": {
+      "item": "minecraft:iron_nugget"
+    },
+    "L": {
+      "item": "numenology:imbued_leather"
+    },
+    "S": {
+      "item": "numenology:superconductor"
+    }
+  },
+  "pattern": [
+    "ILI",
+    "SFS",
+    "LLL"
+  ],
+  "result": {
+    "item": "numenology:focusing_gauntlet"
+  },
+  "show_notification": true
+}

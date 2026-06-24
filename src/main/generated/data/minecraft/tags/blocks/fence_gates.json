@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "numenology:numen_fence_gate",
+    "numenology:umbra_fence_gate",
+    "numenology:lumen_fence_gate"
+  ]
+}

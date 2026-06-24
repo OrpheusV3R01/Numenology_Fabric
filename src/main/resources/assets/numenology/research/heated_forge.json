@@ -1,0 +1,25 @@
+{
+  "pages": [
+    {
+      "type": "text",
+      "text": "research.numenology.heated_forge.page1"
+    },
+    {
+      "type": "image",
+      "text": "research.numenology.heated_forge.page2",
+      "image": "textures/gui/smeltery_guide.png",
+      "width": 128,
+      "height": 128,
+      "scale": 0.72,
+      "x_offset": 0,
+      "y_offset": -10
+    },
+    {
+      "type": "crafting",
+      "text": "research.numenology.heated_forge.page3",
+      "recipe": "numenology:numen_smeltery",
+      "x_offset": 0,
+      "y_offset": -7
+    }
+  ]
+}

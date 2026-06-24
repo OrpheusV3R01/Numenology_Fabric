@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "state=empty,facing=north": { "model": "numenology:block/numen_crucible_empty" },
+    "state=empty,facing=south": { "model": "numenology:block/numen_crucible_empty", "y": 180 },
+    "state=empty,facing=west":  { "model": "numenology:block/numen_crucible_empty", "y": 270 },
+    "state=empty,facing=east":  { "model": "numenology:block/numen_crucible_empty", "y": 90 },
+
+    "state=water,facing=north": { "model": "numenology:block/numen_crucible_water" },
+    "state=water,facing=south": { "model": "numenology:block/numen_crucible_water", "y": 180 },
+    "state=water,facing=west":  { "model": "numenology:block/numen_crucible_water", "y": 270 },
+    "state=water,facing=east":  { "model": "numenology:block/numen_crucible_water", "y": 90 },
+
+    "state=numen,facing=north": { "model": "numenology:block/numen_crucible_numen" },
+    "state=numen,facing=south": { "model": "numenology:block/numen_crucible_numen", "y": 180 },
+    "state=numen,facing=west":  { "model": "numenology:block/numen_crucible_numen", "y": 270 },
+    "state=numen,facing=east":  { "model": "numenology:block/numen_crucible_numen", "y": 90 }
+  }
+}

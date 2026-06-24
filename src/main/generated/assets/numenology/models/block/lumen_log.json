@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "numenology:block/lumen_log_top",
+    "side": "numenology:block/lumen_log"
+  }
+}

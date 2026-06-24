@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_focusing_lens": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "numenology:focusing_lens"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "numenology:focusing_gauntlet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_focusing_lens",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "numenology:focusing_gauntlet"
+    ]
+  },
+  "sends_telemetry_event": false
+}

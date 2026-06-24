@@ -1,0 +1,40 @@
+{
+  "pages": [
+    {
+      "type": "text",
+      "text": "research.numenology.research_tools.page1"
+    },
+    {
+      "type": "text",
+      "text": "research.numenology.research_tools.page2"
+    },
+    {
+      "type": "crafting",
+      "text": "research.numenology.research_tools.lens_craft",
+      "recipe": "numenology:focusing_lens",
+      "x_offset": 0,
+      "y_offset": -10
+    },
+    {
+      "type": "crafting",
+      "text": "research.numenology.research_tools.numenometer_craft",
+      "recipe": "numenology:numenometer",
+      "x_offset": -10,
+      "y_offset": -10
+    },
+    {
+      "type": "crafting",
+      "text": "research.numenology.research_tools.monocular_craft",
+      "recipe": "numenology:monocular",
+      "x_offset": 0,
+      "y_offset": -10
+    },
+    {
+      "type": "crafting",
+      "text": "research.numenology.research_tools.gauntlet_craft",
+      "recipe": "numenology:focusing_gauntlet",
+      "x_offset": -10,
+      "y_offset": -10
+    }
+  ]
+}

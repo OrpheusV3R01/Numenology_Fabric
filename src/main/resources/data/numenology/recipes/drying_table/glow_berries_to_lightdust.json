@@ -1,0 +1,12 @@
+{
+  "type": "numenology:drying_table",
+  "input": {
+    "item": "minecraft:glow_berries",
+    "count": 1
+  },
+  "result": {
+    "item": "minecraft:glowstone_dust",
+    "count": 1
+  },
+  "drying_time": 600
+}

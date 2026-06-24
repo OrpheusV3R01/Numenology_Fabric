@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "numenology:block/hematite_slab"
+    },
+    "type=double": {
+      "model": "numenology:block/hematite_block"
+    },
+    "type=top": {
+      "model": "numenology:block/hematite_slab_top"
+    }
+  }
+}

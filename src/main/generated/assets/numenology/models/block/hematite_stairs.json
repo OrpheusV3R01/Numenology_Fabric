@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "numenology:block/hematite_block",
+    "side": "numenology:block/hematite_block",
+    "top": "numenology:block/hematite_block"
+  }
+}

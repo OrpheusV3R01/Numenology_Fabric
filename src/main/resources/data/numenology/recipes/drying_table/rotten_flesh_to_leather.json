@@ -1,0 +1,12 @@
+{
+  "type": "numenology:drying_table",
+  "input": {
+    "item": "minecraft:rotten_flesh",
+    "count": 1
+  },
+  "result": {
+    "item": "minecraft:leather",
+    "count": 1
+  },
+  "drying_time": 1800
+}

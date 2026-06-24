@@ -1,0 +1,42 @@
+{
+  "pages": [
+    {
+      "type": "text",
+      "text": "research.numenology.molten_steel.page1"
+    },
+    {
+      "type": "text",
+      "text": "research.numenology.molten_steel.page2"
+    },
+    {
+      "type": "image",
+      "text": "craft.numenology.molten_steel.page1",
+      "image": "textures/gui/smeltery_craft_numen_steel.png",
+      "width": 128,
+      "height": 128,
+      "scale": 0.72,
+      "x_offset": -10,
+      "y_offset": -10
+    },
+    {
+      "type": "image",
+      "text": "craft.numenology.molten_steel.page2",
+      "image": "textures/gui/smeltery_craft_superconductor.png",
+      "width": 128,
+      "height": 128,
+      "scale": 0.72,
+      "x_offset": 0,
+      "y_offset": -10
+    },
+    {
+      "type": "image",
+      "text": "craft.numenology.molten_steel.page3",
+      "image": "textures/gui/smeltery_craft_numen_glass.png",
+      "width": 128,
+      "height": 128,
+      "scale": 0.72,
+      "x_offset": -10,
+      "y_offset": -10
+    }
+  ]
+}

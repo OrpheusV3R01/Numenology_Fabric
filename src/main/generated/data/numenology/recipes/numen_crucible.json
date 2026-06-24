@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "numenology:hematite_block"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "numenology:hematite_slab"
+    }
+  },
+  "pattern": [
+    "I I",
+    "B B",
+    "SSS"
+  ],
+  "result": {
+    "item": "numenology:numen_crucible"
+  },
+  "show_notification": true
+}

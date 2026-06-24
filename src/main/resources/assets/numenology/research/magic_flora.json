@@ -1,0 +1,64 @@
+{
+  "pages": [
+    {
+      "type": "text",
+      "text": "research.numenology.magic_flora.page_1"
+    },
+    {
+      "type": "text",
+      "text": "research.numenology.magic_flora.page_2"
+    },
+    {
+      "type": "text",
+      "text": "research.numenology.flora.numen_tree.desc"
+    },
+    {
+      "type": "image",
+      "image": "textures/gui/flora_numen_tree.png",
+      "width": 128,
+      "height": 128,
+      "scale": 0.72,
+      "x_offset": 0,
+      "y_offset": 10
+    },
+    {
+      "type": "text",
+      "text": "research.numenology.flora.turquoise_bush.desc"
+    },
+    {
+      "type": "image",
+      "image": "textures/gui/flora_turquoise_bush.png",
+      "width": 128,
+      "height": 128,
+      "scale": 0.72,
+      "x_offset": 0,
+      "y_offset": 10
+    },
+    {
+      "type": "text",
+      "text": "research.numenology.flora.umbra_tree.desc"
+    },
+    {
+      "type": "image",
+      "image": "textures/gui/flora_umbra_tree.png",
+      "width": 128,
+      "height": 128,
+      "scale": 0.72,
+      "x_offset": 0,
+      "y_offset": 10
+    },
+    {
+      "type": "text",
+      "text": "research.numenology.flora.lumen_tree.desc"
+    },
+    {
+      "type": "image",
+      "image": "textures/gui/flora_lumen_tree.png",
+      "width": 128,
+      "height": 128,
+      "scale": 0.72,
+      "x_offset": 0,
+      "y_offset": 10
+    }
+  ]
+}

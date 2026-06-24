@@ -1,0 +1,15 @@
+{
+  "type": "numenology:crucible",
+  "ingredient": {
+    "item": "minecraft:stone"
+  },
+  "numen_cost": 3,
+  "time": 240,
+
+  "required_knowledge": "numenology:numen_transmutation_tier1",
+
+  "result": {
+    "item": "numenology:numen_stone",
+    "count": 1
+  }
+}

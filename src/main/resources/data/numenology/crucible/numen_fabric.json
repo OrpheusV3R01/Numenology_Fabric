@@ -1,0 +1,14 @@
+{
+  "type": "numenology:crucible",
+  "ingredient": {
+    "tag": "minecraft:wool"
+  },
+  "numen_cost": 3,
+  "time": 80,
+
+  "required_knowledge": "numenology:numen_transmutation_tier1",
+
+  "result": {
+    "item": "numenology:numen_fabric"
+  }
+}

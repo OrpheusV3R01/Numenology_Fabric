@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "numenology:umbra_planks_from_log"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_umbra_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "numenology:umbra_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_umbra_log",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "numenology:umbra_planks_from_log"
+    ]
+  },
+  "sends_telemetry_event": false
+}

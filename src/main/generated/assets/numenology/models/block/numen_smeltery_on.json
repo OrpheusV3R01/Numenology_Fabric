@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "numenology:block/numen_smeltery_front_on",
+    "side": "numenology:block/numen_smeltery_side",
+    "top": "numenology:block/numen_smeltery_top"
+  }
+}

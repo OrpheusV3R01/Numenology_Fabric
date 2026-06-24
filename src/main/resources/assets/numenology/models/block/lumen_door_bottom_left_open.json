@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "textures": {
+    "bottom": "numenology:block/lumen_door_bottom",
+    "top": "numenology:block/lumen_door_top"
+  }
+}

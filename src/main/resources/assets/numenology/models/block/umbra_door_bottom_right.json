@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "numenology:block/umbra_door_bottom",
+    "top": "numenology:block/umbra_door_top"
+  }
+}

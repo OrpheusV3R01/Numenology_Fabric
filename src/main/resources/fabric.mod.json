@@ -1,0 +1,54 @@
+{
+	"schemaVersion": 1,
+	"id": "numenology",
+	"version": "0.3.0",
+	"name": "Numenology",
+	"description": "A world energy system mod based on Numen that addresses blocks, nature, and progression. \n(Мод на мировую энергетическую систему, основанный на Numen, затрагивающий блоки, природу и прогрессию.)",
+
+
+	"authors": [
+		"CHEPUSHILKI CC"
+	],
+	"license": "CHEPUSHILKI CC",
+	"environment": "*",
+
+	"icon": "assets/numenology/icon.png",
+
+
+
+	"entrypoints": {
+		"main": [
+			"numenology.Numenology"
+		],
+		"client": [
+			"numenology.client.NumenologyClient"
+		],
+		"fabric-datagen": [
+			"numenology.datagen.ModDataGenerator"
+		],
+		"modmenu": [
+			"numenology.integration.ModMenuIntegration"
+		],
+		"emi": [
+			"numenology.compat.emi.NumenologyEmiPlugin"
+		]
+	},
+
+	"mixins": [
+		"numenology.mixins.json"
+	],
+
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"trinkets": "*"
+	},
+
+	"custom": {
+		"modmenu": {
+			"links": {}
+		}
+	}
+}

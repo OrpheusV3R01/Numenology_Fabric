@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "numenology:numen_glass"
+    },
+    "I": {
+      "item": "numenology:numen_steel_ingot"
+    }
+  },
+  "pattern": [
+    " I ",
+    "IGI",
+    " I "
+  ],
+  "result": {
+    "item": "numenology:focusing_lens"
+  },
+  "show_notification": true
+}

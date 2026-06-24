@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "numenology:canvas_fabric"
+    },
+    "F": {
+      "item": "minecraft:campfire"
+    },
+    "S": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "pattern": [
+    "SCS",
+    "S S",
+    "SFS"
+  ],
+  "result": {
+    "item": "numenology:drying_table"
+  },
+  "show_notification": true
+}

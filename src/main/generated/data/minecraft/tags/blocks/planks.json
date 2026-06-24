@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "numenology:numen_planks",
+    "numenology:umbra_planks",
+    "numenology:lumen_planks"
+  ]
+}

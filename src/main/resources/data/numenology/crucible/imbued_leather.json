@@ -1,0 +1,14 @@
+{
+  "type": "numenology:crucible",
+  "ingredient": {
+    "item": "minecraft:leather"
+  },
+  "numen_cost": 3,
+  "time": 160,
+
+  "required_knowledge": "numenology:numen_transmutation_tier1",
+
+  "result": {
+    "item": "numenology:imbued_leather"
+  }
+}

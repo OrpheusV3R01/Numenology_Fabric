@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "J": {
+      "item": "numenology:jam_jar"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "T": {
+      "item": "numenology:turquoise_berries"
+    }
+  },
+  "pattern": [
+    "   ",
+    "JST",
+    "   "
+  ],
+  "result": {
+    "item": "numenology:turquoise_jam"
+  },
+  "show_notification": true
+}

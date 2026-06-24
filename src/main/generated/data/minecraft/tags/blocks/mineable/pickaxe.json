@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "numenology:numen_ore",
+    "numenology:deepslate_numen_ore",
+    "numenology:numen_cluster",
+    "numenology:numen_crucible",
+    "numenology:numen_steel_block",
+    "numenology:numen_glass",
+    "numenology:numen_smeltery",
+    "numenology:drying_table",
+    "numenology:runic_numen_bricks",
+    "numenology:numen_stone",
+    "numenology:numen_stone_slab",
+    "numenology:numen_stone_stairs",
+    "numenology:numen_bricks",
+    "numenology:numen_brick_slab",
+    "numenology:numen_brick_stairs",
+    "numenology:hematite_block",
+    "numenology:hematite_slab",
+    "numenology:hematite_stairs",
+    "numenology:hematite_bricks",
+    "numenology:hematite_brick_slab",
+    "numenology:hematite_brick_stairs"
+  ]
+}
