@@ -109,6 +109,33 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.NUMEN_STEEL_INGOT), conditionsFromItem(ModItems.NUMEN_STEEL_INGOT))
                 .offerTo(exporter, new Identifier(Numenology.MOD_ID, "numen_pickaxe"));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.NUMEN_SHOVEL, 1)
+                .pattern(" I ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('S', Items.STICK)
+                .input('I', ModItems.NUMEN_STEEL_INGOT)
+                .criterion(hasItem(ModItems.NUMEN_STEEL_INGOT), conditionsFromItem(ModItems.NUMEN_STEEL_INGOT))
+                .offerTo(exporter, new Identifier(Numenology.MOD_ID, "numen_shovel"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.NUMEN_HOE, 1)
+                .pattern(" II")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('S', Items.STICK)
+                .input('I', ModItems.NUMEN_STEEL_INGOT)
+                .criterion(hasItem(ModItems.NUMEN_STEEL_INGOT), conditionsFromItem(ModItems.NUMEN_STEEL_INGOT))
+                .offerTo(exporter, new Identifier(Numenology.MOD_ID, "numen_hoe"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.NUMEN_AXE, 1)
+                .pattern("II ")
+                .pattern("IS ")
+                .pattern(" S ")
+                .input('S', Items.STICK)
+                .input('I', ModItems.NUMEN_STEEL_INGOT)
+                .criterion(hasItem(ModItems.NUMEN_STEEL_INGOT), conditionsFromItem(ModItems.NUMEN_STEEL_INGOT))
+                .offerTo(exporter, new Identifier(Numenology.MOD_ID, "numen_axe"));
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.NUMEN_STEEL_HELMET, 1)
                 .pattern("III")
                 .pattern("I I")

@@ -135,6 +135,10 @@
   "item.numenology.focusing_gauntlet": "Фокусировочная перчатка",
   "item.numenology.scriber_tools": "Инструменты писаря",
   "item.numenology.numen_codex": "Нумен Кодекс",
+  "item.numenology.numen_pickaxe": "Нуменово-стальная кирка",
+  "item.numenology.numen_shovel": "Нуменово-стальная лопата",
+  "item.numenology.numen_axe": "Нуменово-стальной топор",
+  "item.numenology.numen_hoe": "Нуменово-стальная мотыга",
 
 // ПРЕДМЕТЫ: БРОНЯ
   "item.numenology.numen_steel_helmet": "Шлем из нуменовой стали",
@@ -145,7 +149,7 @@
 
 // ПРЕДМЕТЫ: ОРУЖИЕ
   "item.numenology.numen_sword": "Нуменово-стальной меч",
-  "item.numenology.numen_pickaxe": "Нуменово-стальная кирка",
+
 
 // ПРЕДМЕТЫ: ЕДА
   "item.numenology.turquoise_berries": "Ягоды Бирюзы",

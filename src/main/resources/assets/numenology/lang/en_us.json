@@ -135,6 +135,10 @@
   "item.numenology.focusing_gauntlet": "Focusing Gauntlet",
   "item.numenology.scriber_tools": "Scriber's Tools",
   "item.numenology.numen_codex": "Numen Codex",
+  "item.numenology.numen_shovel": "Numen Steel Shovel",
+  "item.numenology.numen_pickaxe": "Numen Steel Pickaxe",
+  "item.numenology.numen_axe": "Numen Steel Axe",
+  "item.numenology.numen_hoe": "Numen Steel Hoe",
 
 // ITEMS: ARMOR
   "item.numenology.numen_steel_helmet": "Numen Steel Helmet",
@@ -145,6 +149,7 @@
 
 // ITEMS: WEAPONS
   "item.numenology.numen_sword": "Numen Steel Sword",
+
 
 // ITEMS: FOOD
   "item.numenology.turquoise_berries": "Turquoise Berries",

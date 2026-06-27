@@ -59,7 +59,11 @@ public class ModItemGroups {
 
                         //Weapon and Tools
                         entries.add(ModItems.NUMEN_SWORD);
+                        entries.add(ModItems.NUMEN_SHOVEL);
                         entries.add(ModItems.NUMEN_PICKAXE);
+                        entries.add(ModItems.NUMEN_AXE);
+                        entries.add(ModItems.NUMEN_HOE);
+
 
                         //Armor
                         entries.add(ModItems.NUMEN_STEEL_HELMET);

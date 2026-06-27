@@ -110,6 +110,33 @@ public class ModItems {
             )
     );
 
+    public static final Item NUMEN_SHOVEL = registerItem("numen_shovel",
+            new ShovelItem(
+                    NumenToolMaterial.NUMEN_STEEL,
+                    1.5f,
+                    -3.0f,
+                    new Item.Settings()
+            )
+    );
+
+    public static final Item NUMEN_HOE = registerItem("numen_hoe",
+            new HoeItem(
+                    NumenToolMaterial.NUMEN_STEEL,
+                    -2,
+                    -1.0f,
+                    new Item.Settings()
+            )
+    );
+
+    public static final Item NUMEN_AXE = registerItem("numen_axe",
+            new AxeItem(
+                    NumenToolMaterial.NUMEN_STEEL,
+                    5.0f,
+                    -3.0f,
+                    new Item.Settings()
+            )
+    );
+
     public static final Item NUMEN_STEEL_HELMET = registerItem(
             "numen_steel_helmet",
             new ArmorItem(NumenArmorMaterial.NUMEN_STEEL, ArmorItem.Type.HELMET, new Item.Settings().maxCount(1))
