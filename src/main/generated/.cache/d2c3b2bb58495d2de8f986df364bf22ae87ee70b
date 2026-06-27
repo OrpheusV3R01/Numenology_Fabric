@@ -1,10 +1,12 @@
-// 1.20.1	2026-06-24T22:18:19.773555	Numenology/Tags for minecraft:block
+// 1.20.1	2026-06-28T00:41:14.2702095	Numenology/Tags for minecraft:block
 87cda4442cebd4b355260ef9662fb41f011b8a88 data\minecraft\tags\blocks\logs_that_burn.json
 7263e501604fc56f6f1eb3d21f52a0a7d83fb857 data\minecraft\tags\blocks\planks.json
 a9ff092e15cb62b7f27216c07c2f32aab83a943b data\minecraft\tags\blocks\fence_gates.json
-c14edc9477386e923dba9d0a480275cc05cdf625 data\minecraft\tags\blocks\mineable\pickaxe.json
+b0500b94903e6d9fb2fa657bebf415c5e65a5de7 data\minecraft\tags\blocks\walls.json
+c0b01930141bcf6819db3599b77fb6978300a893 data\minecraft\tags\blocks\mineable\pickaxe.json
 1a9eb1eba24d5c62acaff97d8a6e8bed08b38741 data\minecraft\tags\blocks\mineable\hoe.json
-f961f6ca7854238cdeb12d3194d7fae669d2e2cf data\minecraft\tags\blocks\mineable\axe.json
+46b1a4e52874abed8eeedfa59c69a56a9f7e9b0e data\minecraft\tags\blocks\mineable\axe.json
+c0987ead9d76bbe42aac055ba6334f04dd5d5858 data\minecraft\tags\blocks\beds.json
 1a9eb1eba24d5c62acaff97d8a6e8bed08b38741 data\minecraft\tags\blocks\leaves.json
-9568a4bf9ad3ce1b3cf1351b0667926b749b748c data\minecraft\tags\blocks\needs_iron_tool.json
+47795f9bcc757979e8f01f26b9557b2143c05b75 data\minecraft\tags\blocks\needs_iron_tool.json
 17a4b79840f2d3fa0a9ed973d80c6edec15b0b81 data\minecraft\tags\blocks\fences.json

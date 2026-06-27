@@ -153,6 +153,21 @@ public class ModBlocks {
             )
     );
 
+    public static final Block HEMATITE_WALL = registerBlock("hematite_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.HEMATITE_BLOCK)));
+
+    public static final Block HEMATITE_BRICK_WALL = registerBlock("hematite_brick_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.HEMATITE_BRICKS)));
+
+    public static final Block NUMEN_STONE_WALL = registerBlock("numen_stone_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.NUMEN_STONE)));
+
+    public static final Block NUMEN_BRICK_WALL = registerBlock("numen_brick_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.NUMEN_BRICKS)));
+
+    public static final Block CANVAS_BED = registerBlock("canvas_bed",
+            new CanvasBedBlock(FabricBlockSettings.copyOf(Blocks.WHITE_BED).nonOpaque()));
+
     public static final Block NUMEN_SMELTERY = registerBlock(
             "numen_smeltery",
             new NumenSmelteryBlock(AbstractBlock.Settings

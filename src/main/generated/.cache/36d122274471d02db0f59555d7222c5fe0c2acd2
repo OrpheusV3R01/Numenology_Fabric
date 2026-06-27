@@ -1,4 +1,5 @@
-// 1.20.1	2026-06-24T22:18:19.7745567	Numenology/Block Loot Tables
+// 1.20.1	2026-06-28T00:41:14.2712085	Numenology/Block Loot Tables
+fb45bf5b78a5b495d998d3a4dd472006d5c5651f data\numenology\loot_tables\blocks\canvas_bed.json
 f477147e5272ca7150985f7b59b5d5e1989dd81d data\numenology\loot_tables\blocks\hematite_block.json
 e736967fc72ff1812a3c62315d86203b3ea09b29 data\numenology\loot_tables\blocks\runic_numen_bricks.json
 b5301b15aedf60eee18f1aaaa6c5270c8ec43d0b data\numenology\loot_tables\blocks\umbra_resin_log.json
@@ -6,14 +7,18 @@ b5301b15aedf60eee18f1aaaa6c5270c8ec43d0b data\numenology\loot_tables\blocks\umbr
 1b2f029258af59bbe8c3fbc7ff40c4bfd83cba3b data\numenology\loot_tables\blocks\numen_glass.json
 c43ec2a24a201b3760ab22a4ae3b0836fdafe5fe data\numenology\loot_tables\blocks\research_table.json
 bc34e94382a31942ef06cabdee5ba027242dccce data\numenology\loot_tables\blocks\umbra_door.json
+47e97a968c76eb525f17aac73f20d98a85b86709 data\numenology\loot_tables\blocks\hematite_brick_wall.json
 28ebba471590fbcc065f62982d1be639e84bfc26 data\numenology\loot_tables\blocks\numen_door.json
+1aaaacffcb86e3aac265f174c134d2324dacddc5 data\numenology\loot_tables\blocks\numen_brick_wall.json
 ffe09203275a4b04a59f5e104c666354d2109290 data\numenology\loot_tables\blocks\drying_table.json
 c704a63db7618589eb791d4252a5b9e74bb470f3 data\numenology\loot_tables\blocks\hematite_stairs.json
 32c613f0a62e0618341b4fc409136bc343d8ff36 data\numenology\loot_tables\blocks\hematite_brick_stairs.json
 f4f5a37066aa636148840150511be8cd5427bd09 data\numenology\loot_tables\blocks\hematite_slab.json
 98f21fb31a4422125854c7ff8af27f0ae960d866 data\numenology\loot_tables\blocks\numen_smeltery.json
+7797277061fea7c2db9bb45f58d8e7a961ae2353 data\numenology\loot_tables\blocks\numen_stone_wall.json
 40232232abca1447b6464c63e8c87bc5b9dd4ae2 data\numenology\loot_tables\blocks\numen_brick_stairs.json
 25564a29978796dcaf8f1153a7bd11070e580a84 data\numenology\loot_tables\blocks\numen_log.json
+ec68060a09c7d07d43bf0ca48fca53d7777e5165 data\numenology\loot_tables\blocks\hematite_wall.json
 5a4ac4bcbadbc3a12da0fd17a45c00e7013adfc9 data\numenology\loot_tables\blocks\lumen_resin_log.json
 9e6fb0a7b12bdf6100db5241734f169914dae90b data\numenology\loot_tables\blocks\numen_brick_slab.json
 21b4391d977866a7f444feb45357728db4c1e1ce data\numenology\loot_tables\blocks\numen_resin_log.json

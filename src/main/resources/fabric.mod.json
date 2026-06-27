@@ -3,13 +3,13 @@
 	"id": "numenology",
 	"version": "0.3.0",
 	"name": "Numenology",
-	"description": "A world energy system mod based on Numen that addresses blocks, nature, and progression. \n(Мод на мировую энергетическую систему, основанный на Numen, затрагивающий блоки, природу и прогрессию.)",
+	"description": "A world energy system mod based on Numen that addresses blocks, nature, and progression. \n\n(Мод на мировую энергетическую систему, основанный на Numen, затрагивающий блоки, природу и прогрессию.)",
 
 
 	"authors": [
-		"CHEPUSHILKI CC"
+		"CHEPUSHILKI"
 	],
-	"license": "CHEPUSHILKI CC",
+	"license": "CC BY-NC-SA 4.0",
 	"environment": "*",
 
 	"icon": "assets/numenology/icon.png",

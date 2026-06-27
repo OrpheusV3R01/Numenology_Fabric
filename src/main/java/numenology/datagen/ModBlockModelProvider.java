@@ -3,10 +3,13 @@ package numenology.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 
+import net.minecraft.block.enums.BedPart;
 import net.minecraft.data.client.*;
 
+import net.minecraft.state.property.Properties;
 import net.minecraft.util.Identifier;
 import numenology.block.ModBlocks;
+import numenology.block.custom.CanvasBedBlock;
 import numenology.block.custom.NumenSmelteryBlock;
 import numenology.item.ModItems;
 
@@ -97,11 +100,14 @@ public class ModBlockModelProvider extends FabricModelProvider {
 
         generator.registerCubeAllModelTexturePool(ModBlocks.HEMATITE_BLOCK)
                 .slab(ModBlocks.HEMATITE_SLAB)
-                .stairs(ModBlocks.HEMATITE_STAIRS);
+                .stairs(ModBlocks.HEMATITE_STAIRS)
+                .wall(ModBlocks.HEMATITE_WALL); // ← ДОБАВЛЕНО
 
         generator.registerCubeAllModelTexturePool(ModBlocks.HEMATITE_BRICKS)
                 .slab(ModBlocks.HEMATITE_BRICK_SLAB)
-                .stairs(ModBlocks.HEMATITE_BRICK_STAIRS);
+                .stairs(ModBlocks.HEMATITE_BRICK_STAIRS)
+                .wall(ModBlocks.HEMATITE_BRICK_WALL); // ← ДОБАВЛЕНО
+
 
         // ======================
         // NUMEN STONE
@@ -109,15 +115,26 @@ public class ModBlockModelProvider extends FabricModelProvider {
 
         generator.registerCubeAllModelTexturePool(ModBlocks.NUMEN_STONE)
                 .slab(ModBlocks.NUMEN_STONE_SLAB)
-                .stairs(ModBlocks.NUMEN_STONE_STAIRS);
+                .stairs(ModBlocks.NUMEN_STONE_STAIRS)
+                .wall(ModBlocks.NUMEN_STONE_WALL); // ← ДОБАВЛЕНО
 
         generator.registerCubeAllModelTexturePool(ModBlocks.NUMEN_BRICKS)
                 .slab(ModBlocks.NUMEN_BRICK_SLAB)
-                .stairs(ModBlocks.NUMEN_BRICK_STAIRS);
+                .stairs(ModBlocks.NUMEN_BRICK_STAIRS)
+                .wall(ModBlocks.NUMEN_BRICK_WALL); // ← ДОБАВЛЕНО
 
-
-
-
+// ======================
+        // CANVAS BED
+        // ======================
+        generator.blockStateCollector.accept(
+                VariantsBlockStateSupplier.create(ModBlocks.CANVAS_BED)
+                        .coordinate(BlockStateModelGenerator.createNorthDefaultHorizontalRotationStates()) // Отвечает за FACING (North, South, East, West)
+                        .coordinate(
+                                BlockStateVariantMap.create(CanvasBedBlock.PART) // Отвечает за part=head и part=foot
+                                        .register(BedPart.FOOT, BlockStateVariant.create().put(VariantSettings.MODEL, new Identifier("numenology", "block/canvas_bed_foot")))
+                                        .register(BedPart.HEAD, BlockStateVariant.create().put(VariantSettings.MODEL, new Identifier("numenology", "block/canvas_bed_head")))
+                        )
+        );
 
         // ======================
         // NUMEN SMELTERY
@@ -186,5 +203,6 @@ public class ModBlockModelProvider extends FabricModelProvider {
 
         generator.register(ModItems.IMBUED_LEATHER, Models.GENERATED);
         generator.register(ModItems.NUMEN_FABRIC, Models.GENERATED);
+        generator.register(ModBlocks.CANVAS_BED.asItem(), Models.GENERATED);
     }
 }

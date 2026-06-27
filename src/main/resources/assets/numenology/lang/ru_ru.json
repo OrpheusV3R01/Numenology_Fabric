@@ -53,6 +53,7 @@
   "block.numenology.numen_smeltery": "Нуменовая плавильня",
   "block.numenology.numen_steel_block": "Блок нуменовой стали",
   "block.numenology.numen_glass": "Нуменовое стекло",
+  "block.numenology.canvas_bed": "Холщовая лежанка",
 
 // БЛОКИ: НУМЕНОВОЕ ДЕРЕВО
   "block.numenology.numen_log": "Нуменовое бревно",
@@ -100,6 +101,8 @@
   "block.numenology.hematite_bricks": "Гематитовые кирпичи",
   "block.numenology.hematite_brick_slab": "Плита из гематитовых кирпичей",
   "block.numenology.hematite_brick_stairs": "Ступени из гематитовых кирпичей",
+  "block.numenology.hematite_brick_wall": "Ограда из гематитовых кирпичей",
+  "block.numenology.hematite_wall": "Ограда из гематита",
 
 // БЛОКИ: НУМЕН-КАМЕНЬ И КИРПИЧИ
   "block.numenology.numen_stone": "Нумен-камень",
@@ -109,6 +112,8 @@
   "block.numenology.numen_brick_slab": "Плита из нуменовых кирпичей",
   "block.numenology.numen_brick_stairs": "Ступени из нуменовых кирпичей",
   "block.numenology.runic_numen_bricks": "Рунические нуменовые кирпичи",
+  "block.numenology.numen_brick_wall": "Ограда из нуменовых кирпичей",
+  "block.numenology.numen_stone_wall": "Ограда из нуменового камня",
 
 // БЛОКИ: ФЛОРА
   "block.numenology.turquoise_bush": "Куст Бирюзы",
@@ -140,6 +145,7 @@
 
 // ПРЕДМЕТЫ: ОРУЖИЕ
   "item.numenology.numen_sword": "Нуменово-стальной меч",
+  "item.numenology.numen_pickaxe": "Нуменово-стальная кирка",
 
 // ПРЕДМЕТЫ: ЕДА
   "item.numenology.turquoise_berries": "Ягоды Бирюзы",

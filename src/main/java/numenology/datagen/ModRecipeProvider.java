@@ -100,6 +100,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.NUMEN_STEEL_INGOT), conditionsFromItem(ModItems.NUMEN_STEEL_INGOT))
                 .offerTo(exporter, new Identifier(Numenology.MOD_ID, "numen_sword"));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.NUMEN_PICKAXE, 1)
+                .pattern("III")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('S', Items.STICK)
+                .input('I', ModItems.NUMEN_STEEL_INGOT)
+                .criterion(hasItem(ModItems.NUMEN_STEEL_INGOT), conditionsFromItem(ModItems.NUMEN_STEEL_INGOT))
+                .offerTo(exporter, new Identifier(Numenology.MOD_ID, "numen_pickaxe"));
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.NUMEN_STEEL_HELMET, 1)
                 .pattern("III")
                 .pattern("I I")
@@ -197,7 +206,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STRING), conditionsFromItem(Items.STRING))
                 .offerTo(exporter, new Identifier(Numenology.MOD_ID, "canvas_fabric"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.DRYING_TABLE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.DRYING_TABLE, 1)
                 .pattern("SCS")
                 .pattern("S S")
                 .pattern("SFS")
@@ -234,6 +243,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.FOCUSING_LENS), conditionsFromItem(ModItems.FOCUSING_LENS))
                 .offerTo(exporter, new Identifier(Numenology.MOD_ID, "monocular"));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.CANVAS_BED, 1)
+                .pattern("   ")
+                .pattern("WCC")
+                .pattern("   ")
+                .input('C', ModItems.CANVAS_FABRIC)
+                .input('W', net.minecraft.registry.tag.ItemTags.WOOL)
+                .criterion("has_wool", conditionsFromTag(net.minecraft.registry.tag.ItemTags.WOOL))
+                .criterion(hasItem(ModItems.CANVAS_FABRIC), conditionsFromItem(ModItems.CANVAS_FABRIC))
+                .offerTo(exporter, new Identifier(Numenology.MOD_ID, "canvas_bed"));
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.FOCUSING_GAUNTLET, 1)
                 .pattern("ILI")
                 .pattern("SFS")
@@ -266,6 +285,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.INK_SAC), conditionsFromItem(Items.INK_SAC))
                 .criterion(hasItem(Items.PAPER), conditionsFromItem(Items.PAPER))
                 .offerTo(exporter, new Identifier(Numenology.MOD_ID, "scriber_tools"));
+
+        // Рецепт для Hematite Wall
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.HEMATITE_WALL, 6)
+                .pattern("###")
+                .pattern("###")
+                .input('#', ModBlocks.HEMATITE_BLOCK)
+                .criterion(hasItem(ModBlocks.HEMATITE_BLOCK), conditionsFromItem(ModBlocks.HEMATITE_BLOCK))
+                .offerTo(exporter);
+
+        // Рецепт для Hematite Brick Wall
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.HEMATITE_BRICK_WALL, 6)
+                .pattern("###")
+                .pattern("###")
+                .input('#', ModBlocks.HEMATITE_BRICKS)
+                .criterion(hasItem(ModBlocks.HEMATITE_BRICKS), conditionsFromItem(ModBlocks.HEMATITE_BRICKS))
+                .offerTo(exporter);
 
         createSlabRecipe(RecipeCategory.BUILDING_BLOCKS,
                 ModBlocks.HEMATITE_SLAB,
@@ -390,12 +425,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 ModBlocks.NUMEN_STONE,
                 ModBlocks.NUMEN_STONE_SLAB,
                 ModBlocks.NUMEN_STONE_STAIRS,
+                ModBlocks.NUMEN_STONE_WALL,
                 "numen_stone");
 
         createStoneSet(exporter,
                 ModBlocks.NUMEN_BRICKS,
                 ModBlocks.NUMEN_BRICK_SLAB,
                 ModBlocks.NUMEN_BRICK_STAIRS,
+                ModBlocks.NUMEN_BRICK_WALL,
                 "numen_bricks");
 
         // =========================
@@ -499,6 +536,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                                 net.minecraft.block.Block base,
                                 net.minecraft.block.Block slab,
                                 net.minecraft.block.Block stairs,
+                                net.minecraft.block.Block wall, // ← ДОБАВИЛИ ПАРАМЕТР
                                 String name) {
 
         // SLAB
@@ -516,6 +554,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('#', base)
                 .criterion(hasItem(base), conditionsFromItem(base))
                 .offerTo(exporter, new Identifier(Numenology.MOD_ID, name + "_stairs"));
+
+        // WALL
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, wall, 6)
+                .pattern("###")
+                .pattern("###")
+                .input('#', base)
+                .criterion(hasItem(base), conditionsFromItem(base))
+                .offerTo(exporter, new Identifier(Numenology.MOD_ID, name + "_wall"));
     }
 
 }

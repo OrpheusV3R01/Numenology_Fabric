@@ -9,6 +9,10 @@
     "numenology:numen_stone",
     "numenology:numen_bricks",
     "numenology:hematite_block",
-    "numenology:hematite_bricks"
+    "numenology:hematite_bricks",
+    "numenology:hematite_wall",
+    "numenology:hematite_brick_wall",
+    "numenology:numen_stone_wall",
+    "numenology:numen_brick_wall"
   ]
 }

@@ -44,6 +44,7 @@ public class ModItemGroups {
                         entries.add(ModItems.SLAG);
 
                         //WorkStation
+                        entries.add(ModBlocks.CANVAS_BED);
                         entries.add(ModBlocks.RESEARCH_TABLE);
                         entries.add(ModBlocks.DRYING_TABLE);
                         entries.add(ModBlocks.NUMEN_CRUCIBLE);
@@ -56,8 +57,11 @@ public class ModItemGroups {
                         entries.add(ModItems.MONOCULAR);
                         entries.add(ModItems.FOCUSING_GAUNTLET);
 
-                        //Armor
+                        //Weapon and Tools
                         entries.add(ModItems.NUMEN_SWORD);
+                        entries.add(ModItems.NUMEN_PICKAXE);
+
+                        //Armor
                         entries.add(ModItems.NUMEN_STEEL_HELMET);
                         entries.add(ModItems.NUMEN_STEEL_CHESTPLATE);
                         entries.add(ModItems.NUMEN_STEEL_LEGGINGS);
@@ -117,17 +121,22 @@ public class ModItemGroups {
                         entries.add(ModBlocks.HEMATITE_BLOCK);
                         entries.add(ModBlocks.HEMATITE_SLAB);
                         entries.add(ModBlocks.HEMATITE_STAIRS);
+                        entries.add(ModBlocks.HEMATITE_WALL);
                         entries.add(ModBlocks.HEMATITE_BRICKS);
                         entries.add(ModBlocks.HEMATITE_BRICK_SLAB);
                         entries.add(ModBlocks.HEMATITE_BRICK_STAIRS);
+                        entries.add(ModBlocks.HEMATITE_BRICK_WALL);
+
 
                         // NUMEN STONE
                         entries.add(ModBlocks.NUMEN_STONE);
                         entries.add(ModBlocks.NUMEN_STONE_SLAB);
                         entries.add(ModBlocks.NUMEN_STONE_STAIRS);
+                        entries.add(ModBlocks.NUMEN_STONE_WALL);
                         entries.add(ModBlocks.NUMEN_BRICKS);
                         entries.add(ModBlocks.NUMEN_BRICK_SLAB);
                         entries.add(ModBlocks.NUMEN_BRICK_STAIRS);
+                        entries.add(ModBlocks.NUMEN_BRICK_WALL);
                         entries.add(ModBlocks.RUNIC_NUMEN_BRICKS);
 
 

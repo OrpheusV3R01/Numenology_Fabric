@@ -28,6 +28,7 @@
     "numenology:lumen_slab",
     "numenology:lumen_stairs",
     "numenology:lumen_fence",
-    "numenology:lumen_fence_gate"
+    "numenology:lumen_fence_gate",
+    "numenology:canvas_bed"
   ]
 }

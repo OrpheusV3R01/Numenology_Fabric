@@ -21,6 +21,10 @@
     "numenology:hematite_stairs",
     "numenology:hematite_bricks",
     "numenology:hematite_brick_slab",
+    "numenology:hematite_wall",
+    "numenology:hematite_brick_wall",
+    "numenology:numen_stone_wall",
+    "numenology:numen_brick_wall",
     "numenology:hematite_brick_stairs"
   ]
 }

@@ -101,6 +101,15 @@ public class ModItems {
             )
     );
 
+    public static final Item NUMEN_PICKAXE = registerItem("numen_pickaxe",
+            new PickaxeItem(
+                    NumenToolMaterial.NUMEN_STEEL,
+                    1,
+                    -2.8f,
+                    new Item.Settings()
+            )
+    );
+
     public static final Item NUMEN_STEEL_HELMET = registerItem(
             "numen_steel_helmet",
             new ArmorItem(NumenArmorMaterial.NUMEN_STEEL, ArmorItem.Type.HELMET, new Item.Settings().maxCount(1))

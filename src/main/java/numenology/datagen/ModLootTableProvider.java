@@ -25,11 +25,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
 
-        addDrop(ModBlocks.HEMATITE_BLOCK);
-        addDrop(ModBlocks.HEMATITE_STAIRS);
-        addDrop(ModBlocks.HEMATITE_SLAB, slabDrops(ModBlocks.HEMATITE_SLAB));
         addDrop(ModBlocks.DRYING_TABLE);
-        addDrop(ModBlocks.RUNIC_NUMEN_BRICKS);
+        addDrop(ModBlocks.CANVAS_BED);
 
 // ==========================================
         // 🌳 ДРОП ДЛЯ ОБЫЧНОГО БРЕВНА (NUMEN_LOG)
@@ -55,17 +52,26 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                 // Применяем функцию изменения количества к выпадающему предмету (смоле)
                 .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0F, 4.0F))));
 
+        addDrop(ModBlocks.HEMATITE_BLOCK);
+        addDrop(ModBlocks.HEMATITE_STAIRS);
+        addDrop(ModBlocks.HEMATITE_SLAB, slabDrops(ModBlocks.HEMATITE_SLAB));
+        addDrop(ModBlocks.HEMATITE_WALL);
+
         addDrop(ModBlocks.HEMATITE_BRICKS);
         addDrop(ModBlocks.HEMATITE_BRICK_STAIRS);
         addDrop(ModBlocks.HEMATITE_BRICK_SLAB, slabDrops(ModBlocks.HEMATITE_BRICK_SLAB));
+        addDrop(ModBlocks.HEMATITE_BRICK_WALL);
 
         addDrop(ModBlocks.NUMEN_STONE);
         addDrop(ModBlocks.NUMEN_STONE_STAIRS);
         addDrop(ModBlocks.NUMEN_STONE_SLAB, slabDrops(ModBlocks.NUMEN_STONE_SLAB));
+        addDrop(ModBlocks.NUMEN_STONE_WALL);
 
         addDrop(ModBlocks.NUMEN_BRICKS);
         addDrop(ModBlocks.NUMEN_BRICK_STAIRS);
         addDrop(ModBlocks.NUMEN_BRICK_SLAB, slabDrops(ModBlocks.NUMEN_BRICK_SLAB));
+        addDrop(ModBlocks.RUNIC_NUMEN_BRICKS);
+        addDrop(ModBlocks.NUMEN_BRICK_WALL);
 
         addDrop(ModBlocks.NUMEN_STEEL_BLOCK);
         addDrop(ModBlocks.NUMEN_GLASS);

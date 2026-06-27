@@ -5,7 +5,8 @@
 	"refmap": "numenology.refmap.json",
 	"mixins": [
 		"HeldItemRendererMixin",
-		"FocusingGauntletMixin"
+		"FocusingGauntletMixin",
+		"ServerPlayerEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

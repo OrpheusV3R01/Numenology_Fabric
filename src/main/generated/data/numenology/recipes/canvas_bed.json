@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "numenology:canvas_fabric"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "pattern": [
+    "   ",
+    "WCC",
+    "   "
+  ],
+  "result": {
+    "item": "numenology:canvas_bed"
+  },
+  "show_notification": true
+}

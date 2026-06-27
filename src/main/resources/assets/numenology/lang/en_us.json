@@ -53,6 +53,7 @@
   "block.numenology.numen_smeltery": "Numen Smeltery",
   "block.numenology.numen_steel_block": "Numen Steel Block",
   "block.numenology.numen_glass": "Numen Glass",
+  "block.numenology.canvas_bed": "Сanvas Bed",
 
 // BLOCKS: NUMEN WOOD
   "block.numenology.numen_log": "Numen Log",
@@ -100,6 +101,8 @@
   "block.numenology.hematite_bricks": "Hematite Bricks",
   "block.numenology.hematite_brick_slab": "Hematite Brick Slab",
   "block.numenology.hematite_brick_stairs": "Hematite Brick Stairs",
+  "block.numenology.hematite_brick_wall": "Hematite Brick Wall",
+  "block.numenology.hematite_wall": "Hematite Wall",
 
 // BLOCKS: NUMEN STONE & BRICKS
   "block.numenology.numen_stone": "Numen Stone",
@@ -109,6 +112,8 @@
   "block.numenology.numen_brick_slab": "Numen Brick Slab",
   "block.numenology.numen_brick_stairs": "Numen Brick Stairs",
   "block.numenology.runic_numen_bricks": "Runic Numen Bricks",
+  "block.numenology.numen_brick_wall": "Numen Brick Wall",
+  "block.numenology.numen_stone_wall": "Numen Stone Wall",
 
 // BLOCKS: FLORA
   "block.numenology.turquoise_bush": "Turquoise Bush",

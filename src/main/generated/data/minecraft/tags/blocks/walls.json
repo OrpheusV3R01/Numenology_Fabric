@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "numenology:hematite_wall",
+    "numenology:hematite_brick_wall",
+    "numenology:numen_stone_wall",
+    "numenology:numen_brick_wall"
+  ]
+}

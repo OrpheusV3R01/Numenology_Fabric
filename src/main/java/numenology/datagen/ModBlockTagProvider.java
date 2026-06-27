@@ -43,8 +43,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.UMBRA_FENCE_GATE)
                 .add(ModBlocks.RESEARCH_TABLE)
 
-
-
                 .add(ModBlocks.LUMEN_LOG)
                 .add(ModBlocks.LUMEN_RESIN_LOG)
                 .add(ModBlocks.STRIPPED_LUMEN_LOG)
@@ -52,12 +50,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.LUMEN_SLAB)
                 .add(ModBlocks.LUMEN_STAIRS)
                 .add(ModBlocks.LUMEN_FENCE)
-                .add(ModBlocks.LUMEN_FENCE_GATE);
+                .add(ModBlocks.LUMEN_FENCE_GATE)
+                .add(ModBlocks.CANVAS_BED);
 
+        // Тег для оград (чтобы они соединялись)
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.HEMATITE_WALL)
+                .add(ModBlocks.HEMATITE_BRICK_WALL)
+                .add(ModBlocks.NUMEN_STONE_WALL)
+                .add(ModBlocks.NUMEN_BRICK_WALL);
 
-
-
-
+        //Тег кроватей
+        getOrCreateTagBuilder(BlockTags.BEDS)
+                .add(ModBlocks.CANVAS_BED);
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
 
@@ -83,6 +88,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.HEMATITE_STAIRS)
                 .add(ModBlocks.HEMATITE_BRICKS)
                 .add(ModBlocks.HEMATITE_BRICK_SLAB)
+                .add(ModBlocks.HEMATITE_WALL)
+                .add(ModBlocks.HEMATITE_BRICK_WALL)
+                .add(ModBlocks.NUMEN_STONE_WALL)
+                .add(ModBlocks.NUMEN_BRICK_WALL)
                 .add(ModBlocks.HEMATITE_BRICK_STAIRS);
 
 
@@ -97,7 +106,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.NUMEN_BRICKS)
 
                 .add(ModBlocks.HEMATITE_BLOCK)
-                .add(ModBlocks.HEMATITE_BRICKS);
+                .add(ModBlocks.HEMATITE_BRICKS)
+                .add(ModBlocks.HEMATITE_WALL)
+                .add(ModBlocks.HEMATITE_BRICK_WALL)
+                .add(ModBlocks.NUMEN_STONE_WALL)
+                .add(ModBlocks.NUMEN_BRICK_WALL);
 
         getOrCreateTagBuilder(BlockTags.LEAVES)
                 .add(ModBlocks.NUMEN_LEAVES)
